@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="704.0" prefWidth="450.0" style="-fx-background-color: rgba(34, 34, 34, 0.9); -fx-background-radius: 30;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainWindowController">
+   <children>
+      <Pane layoutY="36.0" prefHeight="668.0" prefWidth="450.0" style="-fx-background-color: linear-gradient(to bottom left, #00034f, #42004f); -fx-background-radius: 20 20 30 30;">
+         <children>
+            <Pane layoutX="28.0" layoutY="20.0" prefHeight="142.0" prefWidth="394.0" style="-fx-background-color: rgba(255, 255, 255, 0.1); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="23.0" layoutY="71.0" prefHeight="58.0" prefWidth="347.0" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnClear" layoutX="28.0" layoutY="177.0" onMouseClicked="#onSymbolClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult17" layoutX="23.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="C" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn1" layoutX="28.0" layoutY="462.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult112" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="1" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn4" layoutX="28.0" layoutY="367.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult11" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="4" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn7" layoutX="28.0" layoutY="272.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult14" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="7" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn3" layoutX="236.0" layoutY="462.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult111" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="3" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btnPlus" layoutX="340.0" layoutY="272.0" onMouseClicked="#onSymbolClicked" prefHeight="175.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult19" layoutX="23.0" layoutY="45.0" prefHeight="58.0" prefWidth="30.0" text="+" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="60.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btnMultiply" layoutX="236.0" layoutY="177.0" onMouseClicked="#onSymbolClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult15" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="X" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btnDivide" layoutX="132.0" layoutY="177.0" onMouseClicked="#onSymbolClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult16" layoutX="24.0" layoutY="3.0" prefHeight="58.0" prefWidth="30.0" text="÷" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="58.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn5" layoutX="133.0" layoutY="367.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult1" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="5" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn9" layoutX="236.0" layoutY="272.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult12" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="9" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn8" layoutX="132.0" layoutY="272.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult13" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="8" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn6" layoutX="236.0" layoutY="367.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult18" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="6" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btnEquals" layoutX="340.0" layoutY="462.0" onMouseClicked="#onSymbolClicked" prefHeight="175.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.6); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult110" layoutX="26.0" layoutY="59.0" prefHeight="58.0" prefWidth="30.0" text="=" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn2" layoutX="132.0" layoutY="462.0" onMouseClicked="#onNumberClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult1121" layoutX="26.0" layoutY="12.0" prefHeight="58.0" prefWidth="30.0" text="2" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btn0" layoutX="28.0" layoutY="562.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="290.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult1122" layoutX="130.0" layoutY="9.0" prefHeight="58.0" prefWidth="30.0" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="btnMinus" layoutX="340.0" layoutY="177.0" onMouseClicked="#onSymbolClicked" prefHeight="82.0" prefWidth="82.0" style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-background-radius: 20;">
+               <children>
+                  <Label fx:id="labelResult151" layoutX="30.0" layoutY="7.0" prefHeight="48.0" prefWidth="30.0" text="–" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Bold" size="47.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+         </children></Pane>
+      <Pane fx:id="titlePane" prefHeight="34.0" prefWidth="152.0">
+         <children>
+            <ImageView fx:id="btnClose" fitHeight="20.0" fitWidth="20.0" layoutX="410.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cancel.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="btnMinimise" fitHeight="20.0" fitWidth="20.0" layoutX="380.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/minus.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="8.0" prefHeight="17.0" prefWidth="165.0" text="Calculator" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova" size="17.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</AnchorPane>
